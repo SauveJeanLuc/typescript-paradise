@@ -12,3 +12,11 @@ var name = 'SAUVE';
 // Template strings
 var sentence = "My name is " + name + " I am beginner in Typescript";
 console.log(sentence);
+//Accurate Intellicence
+//null and undefined, Not used on their own
+var n = null;
+var u = undefined;
+var isNew = null;
+var myName = undefined;
+var list1 = [1, 2, 3];
+var list2 = Array();

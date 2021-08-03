@@ -11,8 +11,19 @@ const title = 'Sympa';
 let isBeginner: boolean = true;
 let total: number = 0;
 let name: string = 'SAUVE';
-
 // Template strings
 
 let sentence: string = `My name is ${name} I am beginner in Typescript`
 console.log(sentence);
+
+//Accurate Intellicence
+
+//null and undefined, Not used on their own
+let n: null = null;
+let u: undefined = undefined;
+
+let isNew: boolean = null;
+let myName: string = undefined;
+
+let list1: number[] = [1,2,3];
+let list2: number[] = Array<number>();

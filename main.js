@@ -31,3 +31,11 @@ var Color;
 ;
 var shirtColor = Color.Green;
 console.log(shirtColor);
+//Any type: value from third party library, or user input that's dynamic.
+var randomValue = 200;
+randomValue = true;
+randomValue = 'SAUVE';
+var myVariable = 10;
+console.log(myVariable.name);
+myVariable();
+myVariable.toUpperCase();

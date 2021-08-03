@@ -35,3 +35,13 @@ enum Color {Red = 5, Green, Blue};
 let shirtColor = Color.Green;
 console.log(shirtColor);
 
+//Any type: value from third party library, or user input that's dynamic.
+let randomValue: any = 200;
+randomValue = true;
+randomValue = 'SAUVE';
+
+let myVariable: any = 10;
+console.log(myVariable.name);
+myVariable();
+myVariable.toUpperCase();
+

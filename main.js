@@ -19,4 +19,4 @@ var u = undefined;
 var isNew = null;
 var myName = undefined;
 var list1 = [1, 2, 3];
-var list2 = Array();
+var list2 = [1, 2, 3];

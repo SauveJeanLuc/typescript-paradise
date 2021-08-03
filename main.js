@@ -8,4 +8,7 @@ var sum;
 var title = 'Sympa';
 var isBeginner = true;
 var total = 0;
-var name = 'Vishwas';
+var name = 'SAUVE';
+// Template strings
+var sentence = "My name is " + name + " I am beginner in Typescript";
+console.log(sentence);

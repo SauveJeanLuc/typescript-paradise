@@ -10,4 +10,9 @@ const title = 'Sympa';
 
 let isBeginner: boolean = true;
 let total: number = 0;
-let name: string = 'Vishwas';
+let name: string = 'SAUVE';
+
+// Template strings
+
+let sentence: string = `My name is ${name} I am beginner in Typescript`
+console.log(sentence);

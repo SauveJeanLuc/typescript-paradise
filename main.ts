@@ -45,3 +45,10 @@ console.log(myVariable.name);
 myVariable();
 myVariable.toUpperCase();
 
+//Unkwon type, can't call any property of unknown
+
+
+let yourVariable: unknown = 10;
+console.log(yourVariable.name);
+yourVariable();
+(myVariable as string).toUpperCase();

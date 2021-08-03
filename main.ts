@@ -28,3 +28,6 @@ let myName: string = undefined;
 let list1: number[] = [1,2,3];
 let list2: Array<number> = [1,2,3];
 
+//tuple data type
+let person1: [string, number] = ['Chris', 22];
+

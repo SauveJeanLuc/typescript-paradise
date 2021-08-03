@@ -30,4 +30,8 @@ let list2: Array<number> = [1,2,3];
 
 //tuple data type
 let person1: [string, number] = ['Chris', 22];
+enum Color {Red = 5, Green, Blue};
+
+let shirtColor = Color.Green;
+console.log(shirtColor);
 

@@ -85,16 +85,16 @@ add(5);
 
 interface Person {
     firstName: string;
-    lastName?: string;
+    lastName: string;
 }
 
 function fullName(person: Person) {
-    console.log(`${person.firstName} ${person.lastName}}`);
+    console.log(`${person.firstName} ${person.lastName}`);
 }
 
 let p = {
-    firstName: 'Bruce',
-    lastName: 'Wayne'
+    firstName: 'SAUVE',
+    lastName: 'Jean-Luc'
 }
 
 fullName(p);

@@ -66,10 +66,10 @@ function add(num1, num2) {
 add(5, 10);
 add(5);
 function fullName(person) {
-    console.log(person.firstName + " " + person.lastName + "}");
+    console.log(person.firstName + " " + person.lastName);
 }
 var p = {
-    firstName: 'Bruce',
-    lastName: 'Wayne'
+    firstName: 'SAUVE',
+    lastName: 'Jean-Luc'
 };
 fullName(p);

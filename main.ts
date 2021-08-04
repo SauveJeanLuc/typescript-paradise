@@ -69,6 +69,12 @@ let a;
 a=10;
 a=true;
 
-let b = 20;
-b=true;
+let b = 20; //Type checking happends here
+
+let multiType: number | boolean; //Multiple types
+multiType = 20;
+multiType = true;
+
+
+
 

@@ -47,6 +47,14 @@ myVariable.toUpperCase();
 
 //Unkwon type, can't call any property of unknown
 
+//function that checks if variable has 
+//name property or not
+
+function hasName(obj: any): obj is {name: string} {
+    return !!obj && 
+            typeof obj === "object" &&
+            "name" in obj
+}
 
 let yourVariable: unknown = 10;
 console.log(yourVariable.name);

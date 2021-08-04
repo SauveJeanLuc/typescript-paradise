@@ -101,7 +101,7 @@ fullName(p);
 
 
 class Employee {
-    employeeName: string;
+    protected employeeName: string;
 
     constructor(name: string){
         this.employeeName = name;
@@ -121,7 +121,7 @@ class Manager extends Employee {
         super(managerName);
     };
     delegateWork() {
-        console.log(`Manager delegating tasks`);
+        console.log(`Manager delegating tasks ${this.employeeName}`);
     }
 }
 

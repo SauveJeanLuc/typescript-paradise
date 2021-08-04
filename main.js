@@ -107,7 +107,7 @@ var Manager = /** @class */ (function (_super) {
     }
     ;
     Manager.prototype.delegateWork = function () {
-        console.log("Manager delegating tasks");
+        console.log("Manager delegating tasks " + this.employeeName);
     };
     return Manager;
 }(Employee));

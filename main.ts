@@ -101,7 +101,7 @@ fullName(p);
 
 
 class Employee {
-    protected employeeName: string;
+    public employeeName: string;
 
     constructor(name: string){
         this.employeeName = name;

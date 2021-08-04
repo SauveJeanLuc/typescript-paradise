@@ -36,11 +36,40 @@ var randomValue = 200;
 randomValue = true;
 randomValue = 'SAUVE';
 var myVariable = 10;
-console.log(myVariable.name);
-myVariable();
-myVariable.toUpperCase();
 //Unkwon type, can't call any property of unknown
+//function that checks if variable has 
+//name property or not
+function hasName(obj) {
+    return !!obj &&
+        typeof obj === "object" &&
+        "name" in obj;
+}
 var yourVariable = 10;
-console.log(yourVariable.name);
-yourVariable();
-myVariable.toUpperCase();
+if (hasName(yourVariable)) {
+    console.log(yourVariable.name);
+}
+// (yourVariable as string).toUpperCase();
+var a;
+a = 10;
+a = true;
+var b = 20; //Type checking happends here
+var multiType; //Multiple types
+multiType = 20;
+multiType = true;
+function add(num1, num2) {
+    if (num2 === void 0) { num2 = 10; }
+    if (num2)
+        return num1 + num2;
+    else
+        return num1;
+}
+add(5, 10);
+add(5);
+function fullName(person) {
+    console.log(person.firstName + " " + person.lastName + "}");
+}
+var p = {
+    firstName: 'Bruce',
+    lastName: 'Wayne'
+};
+fullName(p);

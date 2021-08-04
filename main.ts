@@ -41,9 +41,7 @@ randomValue = true;
 randomValue = 'SAUVE';
 
 let myVariable: any = 10;
-console.log(myVariable.name);
-myVariable();
-myVariable.toUpperCase();
+
 
 //Unkwon type, can't call any property of unknown
 
@@ -56,6 +54,7 @@ function hasName(obj: any): obj is {name: string} {
             "name" in obj
 }
 
+
 let yourVariable: unknown = 10;
 
 
@@ -63,7 +62,7 @@ if(hasName(yourVariable)){
     console.log(yourVariable.name);
 }
 
-(myVariable as string).toUpperCase();
+// (yourVariable as string).toUpperCase();
 
 let a;
 a=10;
@@ -84,7 +83,17 @@ function add(num1: number, num2: number =10): number{
 add(5,10); 
 add(5);
 
- 
+
+function fullName(person: {firstName: string, lastName: string}) {
+    console.log(`${person.firstName} ${person.lastName}}`);
+}
+
+let p = {
+    firstName: 'Bruce',
+    lastName: 'Wayne'
+}
+
+fullName(p);
 
 
 

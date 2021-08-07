@@ -76,7 +76,11 @@ Exercise:
 
 */
 
-export type User = unknown;
+export type User{
+  name: string,
+  age: number,
+  occupation: string
+};
 
 export const users: unknown[] = [
   {

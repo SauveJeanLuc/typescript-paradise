@@ -30,9 +30,9 @@ interface Admin {
   role: string;
 }
 
-export class Person = User | Admin;
+export class Person :  User | Admin;
 
-export const persons: Person[] /* <- Person[] */ = [
+export const persons: Person[] = [
   {
     name: "Max Mustermann",
     age: 25,

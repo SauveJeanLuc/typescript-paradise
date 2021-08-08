@@ -30,7 +30,7 @@ interface Admin {
   role: string;
 }
 
-export class Person :  User | Admin;
+export type Person = User | Admin;
 
 export const persons: Person[] = [
   {

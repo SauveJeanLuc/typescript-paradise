@@ -55,7 +55,12 @@ export const persons: Person[] = [
 
 export function logPerson(person: Person) {
   let additionalInformation: string;
-  
+  /**The in Operator
+   * for an 'n' in x is a string literal or string literal type.
+   * and x is a union type, a
+   * true is returned if the type has an optional or required property n
+   * false is the other way round
+   */
   if ('role' in person) {
     additionalInformation = person.role;
   } else {

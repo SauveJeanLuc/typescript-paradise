@@ -30,6 +30,13 @@ interface Admin {
   role: string;
 }
 
+/**Type Aliases
+ * These create new names for a type.
+ * These are sometimes similar to interfaces,
+ * but can name primitives, unions, tuples and any other types that you'd otherwise have to write by hand
+ * It can't be extended as interfaces
+ * you can't add value on them
+ */
 export type Person = User | Admin;
 
 export const persons: Person[] = [
